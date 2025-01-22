@@ -1,1 +1,16 @@
 node_modules
+src/*
+
+# Composer #
+vendor
+composer.lock
+
+# Development #
+gulp.js
+
+# npm #
+package.json
+package-lock.json
+
+readme.txt
+
