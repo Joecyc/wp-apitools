@@ -1,0 +1,50 @@
+/* Scroll control */
+.scroll {
+  /* background-color: #e9ecef;*/
+  padding: 0px;
+  /* How elements that don't fit into container appear */
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+/* Api Tools Section*/
+.pretty {
+  background-color: #adb5bd;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pretty.sendapi {
+  height: 555px;
+}
+
+.pretty.filterapi {
+  height: 222px;
+  width: 777px;
+}
+
+.pretty.manageapi {
+  height: 444px;
+}
+
+/* Order Api Section*/
+.pretty.api {
+  height: 333px;
+}
+
+.pretty.advance {
+  height: 250px;
+  color: lightblue;
+}
+
+.pretty.props {
+  height: 333px;
+  align-items: left;
+}
+/* Hide pretty */
+.json {
+  display: none;
+}

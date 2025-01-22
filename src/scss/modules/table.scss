@@ -1,0 +1,39 @@
+.api-table {
+  width: 100%;
+  border-spacing: 5px;
+  text-align: left;
+
+  &,
+  & th,
+  & td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+
+  & th {
+    background-color: #f5f5f5;
+  }
+}
+
+.tag-table {
+  width: 100%;
+  border-spacing: 5px;
+  text-align: left;
+
+  &,
+  & th,
+  & td {
+    border: 0.8px solid #ccc;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+
+  & th {
+    background-color: none;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
