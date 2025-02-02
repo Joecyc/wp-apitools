@@ -1,16 +1,36 @@
-node_modules
-src/*
+# OS generated files #
+######################
+**.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# SASS #
+##########
+**/.sass-cache
+**/.sass-cache/*
+**/.map
 
 # Composer #
+##########
 vendor
+!assets/js/vendor/
 composer.lock
+
+# NPM #
+##########
+node_modules
+package.json
+package-lock.json
+yarn.lock
+
+# VSCode Workspace Settings #
+.vscode
 
 # Development #
 gulp.js
 
-# npm #
-package.json
-package-lock.json
-
+# Others #
+src/*
 readme.txt
-
